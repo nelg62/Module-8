@@ -3,3 +3,6 @@ mongodb://dbadmin:Password1@localhost:27017/
 
 
 redis-cli -h 127.0.0.1 -p 6379 -a "Password1" 
+
+
+docker-compose -f .\compose.redis.yml up
